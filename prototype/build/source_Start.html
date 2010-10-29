@@ -6,14 +6,14 @@
 
 function Initialize()
 {
-    var pageName = QueryString("Page");
+    var pageName = QueryString("page");
     if (pageName.length > 0) 
     {
         parent.mainFrame.location.href = pageName + ".html";
     }
     else
     {
-        parent.mainFrame.location.href = "Index.html";
+        parent.mainFrame.location.href = "index.html";
     }
 }
 
