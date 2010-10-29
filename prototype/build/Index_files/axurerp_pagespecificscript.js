@@ -1,8 +1,8 @@
 
-var PageName = 'Index';
+var PageName = 'index';
 var PageId = 'p6f62627560f84114aba4aa7b24aa2838'
-var PageUrl = 'Index.html'
-document.title = 'Index';
+var PageUrl = 'index.html'
+document.title = 'index';
 
 if (top.location != self.location)
 {

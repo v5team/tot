@@ -61,7 +61,7 @@ function Clicku9(e)
 
 if (true) {
 
-	self.location.href="Index.html" + GetQuerystring();
+	self.location.href="index.html" + GetQuerystring();
 
 }
 
