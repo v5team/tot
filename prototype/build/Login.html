@@ -1,0 +1,57 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<INPUT id=u0  type=text value="龙刚" style="position:absolute; left:415px; top:276.5px; width:245px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'宋体'; font-size: 16px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=u1 style="position:absolute; left:340px; top:281.5px; width:60px; height:20px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u1_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:16px;">帐户:</span></div></DIV></DIV>
+<INPUT id=u2  type=submit value="登录" style="position:absolute; left:419px; top:370px; width:100px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u3  type=password value="123456" style="position:absolute; left:415px; top:315.5px; width:245px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'宋体'; font-size: 16px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=u4 style="position:absolute; left:340px; top:315.5px; width:60px; height:20px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u4_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:16px;">密码:</span></div></DIV></DIV>
+<DIV id=u5 style="position:absolute; left:360px; top:239.5px; width:300px; height:20px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u5_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FF0000; font-size:16px;">小样，忘记密码了吧!</span></div></DIV></DIV>
+<DIV id=ou6 style="position:absolute; left:360px; top:145.5px; width:301px; height:71px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:309px; height:79px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Login_files/u6.png',sizingMethod='scale');
+"><img style="width:309px; height:79px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Login_files/u6.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u6container style="position:absolute; left:360px; top:145.5px; width:301px; height:71px;; overflow:visible;">
+
+<DIV id=u7 style="position:absolute; left:2px; top:-5.5px; width:296px; height:81px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u7_rtf><br><br><br><div style="text-align:center"><span style=" font-family:'Arial'; color:#000000; font-size:13px;">TraceTeam logo</span><br><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">300 </span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">x</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"> 70</span></div></DIV></DIV>
+</DIV>
+<IMG id=u6 src="Resources/transparent.gif" style="position:absolute; left:360px; top:145.5px; width:300px; height:70px"  >
+
+<DIV id=u8 style="position:absolute; left:435px; top:405.5px; width:145px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u8_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#999999; font-size:13px;"><u>[重置密码并发送到邮箱]</u></span></DIV></DIV>
+<INPUT id=u9  type=submit value="返回" style="position:absolute; left:556px; top:370px; width:100px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+<SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="Login_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>
