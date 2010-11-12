@@ -1,0 +1,200 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<DIV id=ou0 style="position:absolute; left:20px; top:130px; width:951px; height:291px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:959px; height:299px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Package_Receiver_Create_Group2_files/u0.png',sizingMethod='scale');
+"><img style="width:959px; height:299px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Package_Receiver_Create_Group2_files/u0.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u0container style="position:absolute; left:20px; top:130px; width:951px; height:291px;; overflow:visible;">
+
+<DIV id=u1 style="position:absolute; left:2px; top:137px; width:946px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u1_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u0 src="Resources/transparent.gif" style="position:absolute; left:20px; top:130px; width:950px; height:290px"  >
+
+<INPUT id=u2  type=submit value="确定" style="position:absolute; left:440px; top:360px; width:100px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=u3container style="position:absolute; left:60px; top:160px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u4 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u4_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">释然</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:60px; top:160px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u3 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u5container style="position:absolute; left:60px; top:190px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u6 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u6_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">子涯</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:60px; top:190px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u5 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u7container style="position:absolute; left:60px; top:223px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u8 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u8_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">龙刚</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:60px; top:223px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u7 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u9container style="position:absolute; left:180px; top:160px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u10 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u10_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">释然</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:180px; top:160px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u9 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u11container style="position:absolute; left:180px; top:190px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u12 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u12_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">子涯</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:180px; top:190px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u11 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u13container style="position:absolute; left:180px; top:223px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u14 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u14_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">龙刚</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:180px; top:223px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u13 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u15container style="position:absolute; left:310px; top:160px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u16 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u16_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">释然</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:310px; top:160px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u15 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u17container style="position:absolute; left:310px; top:190px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u18 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u18_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">子涯</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:310px; top:190px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u17 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u19container style="position:absolute; left:310px; top:223px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u20 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u20_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">龙刚</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:310px; top:223px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u19 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u21container style="position:absolute; left:440px; top:160px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u22 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u22_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">释然</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:440px; top:160px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u21 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u23container style="position:absolute; left:440px; top:190px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u24 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u24_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">子涯</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:440px; top:190px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u23 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u25container style="position:absolute; left:440px; top:223px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u26 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u26_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">龙刚</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:440px; top:223px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u25 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u27container style="position:absolute; left:570px; top:160px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u28 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u28_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">释然</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:570px; top:160px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u27 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u29container style="position:absolute; left:570px; top:190px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u30 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u30_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">子涯</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:570px; top:190px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u29 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u31container style="position:absolute; left:570px; top:223px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u32 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u32_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">龙刚</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:570px; top:223px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u31 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u33container style="position:absolute; left:700px; top:160px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u34 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u34_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">释然</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:700px; top:160px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u33 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u35container style="position:absolute; left:700px; top:190px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u36 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u36_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">子涯</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:700px; top:190px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u35 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u37container style="position:absolute; left:700px; top:223px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u38 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u38_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">龙刚</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:700px; top:223px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u37 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u39container style="position:absolute; left:840px; top:160px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u40 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u40_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">释然</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:840px; top:160px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u39 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u41container style="position:absolute; left:840px; top:190px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u42 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u42_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">子涯</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:840px; top:190px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u41 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u43container style="position:absolute; left:840px; top:223px; width:100px; height:17px; ; ; text-align: left " >
+<DIV id=u44 style="position:absolute; left:16px; top:0px; width:82px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u44_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">龙刚</span></DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:840px; top:223px; width:100px; height:17px; ; ; text-align: left " ><INPUT id=u43 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<SELECT id=u45  style="position:absolute; left:400px; top:270px; width:175px; height:22px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+<OPTION  value="临时组">临时组</OPTION>
+<OPTION selected value="永久组">永久组</OPTION>
+</SELECT>
+
+<INPUT id=u46  type=text value="请命名" style="position:absolute; left:400px; top:315px; width:175px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=u47 style="position:absolute; left:590px; top:320px; width:10px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u47_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FF0000; font-size:13px;">*</span></DIV></DIV>
+<DIV id=u48 style="position:absolute; left:849px; top:93px; width:80px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u48_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>您好，龙藏！</u></span></DIV></DIV>
+<span style="position:absolute; left:940px; top:80px; width:30px; height:30px">
+<span id=ou49 style="position:absolute;left:0px;top:0px;width:30px;height:30px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Package_Receiver_Create_Group2_files/u49.png',sizingMethod='scale');
+"><img style="width:30px; height:30px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Package_Receiver_Create_Group2_files/u49.png" border="0" alt=""></span>
+</span>
+<IMG id=u49 src="Resources/transparent.gif" style="position:absolute; left:940px; top:80px; width:30px; height:30px"   >
+
+<span style="position:absolute; left:778px; top:88px; width:22px; height:22px">
+<span id=ou50 style="position:absolute;left:0px;top:0px;width:22px;height:22px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Package_Receiver_Create_Group2_files/u50.png',sizingMethod='scale');
+"><img style="width:22px; height:22px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Package_Receiver_Create_Group2_files/u50.png" border="0" alt=""></span>
+</span>
+<IMG id=u50 src="Resources/transparent.gif" style="position:absolute; left:778px; top:88px; width:22px; height:22px"   >
+
+<DIV id=u50ann style="font-size:1px; position:absolute; left:791px; top:84px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=ou51 style="position:absolute; left:20px; top:20px; width:351px; height:76px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:359px; height:84px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Package_Receiver_Create_Group2_files/u51.png',sizingMethod='scale');
+"><img style="width:359px; height:84px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Package_Receiver_Create_Group2_files/u51.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u51container style="position:absolute; left:20px; top:20px; width:351px; height:76px;; overflow:visible;">
+
+<DIV id=u52 style="position:absolute; left:2px; top:3.5px; width:346px; height:68px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u52_rtf><div style="text-align:center"><span style=" font-family:'Arial Black'; color:#000000; font-size:48px;"><b>TraceTeam</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u51 src="Resources/transparent.gif" style="position:absolute; left:20px; top:20px; width:350px; height:75px"  >
+
+<span style="position:absolute; left:826px; top:90px; width:20px; height:20px">
+<span id=ou53 style="position:absolute;left:0px;top:0px;width:20px;height:20px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Package_Receiver_Create_Group2_files/u53.png',sizingMethod='scale');
+"><img style="width:20px; height:20px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Package_Receiver_Create_Group2_files/u53.png" border="0" alt=""></span>
+</span>
+<IMG id=u53 src="Resources/transparent.gif" style="position:absolute; left:826px; top:90px; width:20px; height:20px"   >
+<SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="Package_Receiver_Create_Group2_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>

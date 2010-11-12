@@ -1,0 +1,203 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<DIV id=ou0 style="position:absolute; left:20px; top:174px; width:901px; height:127px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:909px; height:135px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='start_files/u0.png',sizingMethod='scale');
+"><img style="width:909px; height:135px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="start_files/u0.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u0container style="position:absolute; left:20px; top:174px; width:901px; height:127px;; overflow:visible;">
+
+<DIV id=u1 style="position:absolute; left:2px; top:55px; width:896px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u1_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u0 src="Resources/transparent.gif" style="position:absolute; left:20px; top:174px; width:900px; height:126px"  >
+
+<DIV id=ou2 style="position:absolute; left:20px; top:120px; width:231px; height:55px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:239px; height:63px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='start_files/u2.png',sizingMethod='scale');
+"><img style="width:239px; height:63px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="start_files/u2.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u2container style="position:absolute; left:20px; top:120px; width:231px; height:55px;; overflow:visible;">
+
+<DIV id=u3 style="position:absolute; left:2px; top:19px; width:226px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u3_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u2 src="Resources/transparent.gif" style="position:absolute; left:20px; top:120px; width:230px; height:54px"  >
+
+<DIV id=ou4 style="position:absolute; left:20px; top:374px; width:901px; height:127px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:909px; height:135px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='start_files/u0.png',sizingMethod='scale');
+"><img style="width:909px; height:135px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="start_files/u0.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u4container style="position:absolute; left:20px; top:374px; width:901px; height:127px;; overflow:visible;">
+
+<DIV id=u5 style="position:absolute; left:2px; top:55px; width:896px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u5_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u4 src="Resources/transparent.gif" style="position:absolute; left:20px; top:374px; width:900px; height:126px"  >
+
+<DIV id=u4ann style="font-size:1px; position:absolute; left:911px; top:370px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=u6 style="position:absolute; left:60px; top:260px; width:120px; height:27px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u6_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#4C4C4C; font-size:21px;">任务管理</span></div></DIV></DIV>
+<DIV id=u7 style="position:absolute; left:230px; top:260px; width:130px; height:27px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u7_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#4C4C4C; font-size:21px;">查看周报</span></div></DIV></DIV>
+<DIV id=u8 style="position:absolute; left:410px; top:260px; width:120px; height:27px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u8_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#4C4C4C; font-size:21px;">成员状态</span></div></DIV></DIV>
+<span style="position:absolute; left:90px; top:190px; width:60px; height:60px">
+<span id=ou9 style="position:absolute;left:0px;top:0px;width:60px;height:60px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='start_files/u9.png',sizingMethod='scale');
+"><img style="width:60px; height:60px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="start_files/u9.png" border="0" alt=""></span>
+</span>
+<IMG id=u9 src="Resources/transparent.gif" style="position:absolute; left:90px; top:190px; width:60px; height:60px"   >
+
+<span style="position:absolute; left:261px; top:190px; width:60px; height:60px">
+<span id=ou10 style="position:absolute;left:0px;top:0px;width:60px;height:60px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='start_files/u10.png',sizingMethod='scale');
+"><img style="width:60px; height:60px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="start_files/u10.png" border="0" alt=""></span>
+</span>
+<IMG id=u10 src="Resources/transparent.gif" style="position:absolute; left:261px; top:190px; width:60px; height:60px"   >
+
+<span style="position:absolute; left:440px; top:190px; width:60px; height:60px">
+<span id=ou11 style="position:absolute;left:0px;top:0px;width:60px;height:60px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='start_files/u11.png',sizingMethod='scale');
+"><img style="width:60px; height:60px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="start_files/u11.png" border="0" alt=""></span>
+</span>
+<IMG id=u11 src="Resources/transparent.gif" style="position:absolute; left:440px; top:190px; width:60px; height:60px"   >
+
+<DIV id=ou12 style="position:absolute; left:20px; top:15px; width:351px; height:76px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:359px; height:84px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='start_files/u12.png',sizingMethod='scale');
+"><img style="width:359px; height:84px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="start_files/u12.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u12container style="position:absolute; left:20px; top:15px; width:351px; height:76px;; overflow:visible;">
+
+<DIV id=u13 style="position:absolute; left:2px; top:3.5px; width:346px; height:68px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u13_rtf><div style="text-align:center"><span style=" font-family:'Arial Black'; color:#000000; font-size:48px;"><b>TraceTeam</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u12 src="Resources/transparent.gif" style="position:absolute; left:20px; top:15px; width:350px; height:75px"  >
+
+<DIV id=u14 style="position:absolute; left:610px; top:260px; width:120px; height:27px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u14_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#4C4C4C; font-size:21px;">所有项目</span></div></DIV></DIV>
+<span style="position:absolute; left:630px; top:190px; width:60px; height:60px">
+<span id=ou15 style="position:absolute;left:0px;top:0px;width:60px;height:60px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='start_files/u15.png',sizingMethod='scale');
+"><img style="width:60px; height:60px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="start_files/u15.png" border="0" alt=""></span>
+</span>
+<IMG id=u15 src="Resources/transparent.gif" style="position:absolute; left:630px; top:190px; width:60px; height:60px"   >
+
+<DIV id=u16 style="position:absolute; left:60px; top:463px; width:120px; height:27px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u16_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#4C4C4C; font-size:21px;">添加任务包</span></div></DIV></DIV>
+<span style="position:absolute; left:90px; top:390px; width:60px; height:60px">
+<span id=ou17 style="position:absolute;left:0px;top:0px;width:60px;height:60px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='start_files/u17.png',sizingMethod='scale');
+"><img style="width:60px; height:60px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="start_files/u17.png" border="0" alt=""></span>
+</span>
+<IMG id=u17 src="Resources/transparent.gif" style="position:absolute; left:90px; top:390px; width:60px; height:60px"   >
+
+<DIV id=u18 style="position:absolute; left:240px; top:463px; width:110px; height:27px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u18_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#4C4C4C; font-size:21px;">审查任务包</span></div></DIV></DIV>
+<span style="position:absolute; left:261px; top:390px; width:60px; height:60px">
+<span id=ou19 style="position:absolute;left:0px;top:0px;width:60px;height:60px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='start_files/u19.png',sizingMethod='scale');
+"><img style="width:60px; height:60px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="start_files/u19.png" border="0" alt=""></span>
+</span>
+<IMG id=u19 src="Resources/transparent.gif" style="position:absolute; left:261px; top:390px; width:60px; height:60px"   >
+
+<DIV id=ou20 style="position:absolute; left:20px; top:320px; width:231px; height:55px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:239px; height:63px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='start_files/u2.png',sizingMethod='scale');
+"><img style="width:239px; height:63px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="start_files/u2.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u20container style="position:absolute; left:20px; top:320px; width:231px; height:55px;; overflow:visible;">
+
+<DIV id=u21 style="position:absolute; left:2px; top:19px; width:226px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u21_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u20 src="Resources/transparent.gif" style="position:absolute; left:20px; top:320px; width:230px; height:54px"  >
+
+<span style="position:absolute; left:30px; top:130px; width:32px; height:32px">
+<span id=ou22 style="position:absolute;left:0px;top:0px;width:32px;height:32px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='start_files/u22.png',sizingMethod='scale');
+"><img style="width:32px; height:32px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="start_files/u22.png" border="0" alt=""></span>
+</span>
+<IMG id=u22 src="Resources/transparent.gif" style="position:absolute; left:30px; top:130px; width:32px; height:32px"   >
+
+<span style="position:absolute; left:30px; top:329px; width:32px; height:32px">
+<span id=ou23 style="position:absolute;left:0px;top:0px;width:32px;height:32px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='start_files/u23.png',sizingMethod='scale');
+"><img style="width:32px; height:32px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="start_files/u23.png" border="0" alt=""></span>
+</span>
+<IMG id=u23 src="Resources/transparent.gif" style="position:absolute; left:30px; top:329px; width:32px; height:32px"   >
+
+<DIV id=u24 style="position:absolute; left:80px; top:327px; width:150px; height:36px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u24_rtf><span style=" font-family:'\'ce\'a2\'c8\'ed\'d1\'c5\'ba\'da'; color:#000000; font-size:21px;"><b>接口人管理面板</b></span></DIV></DIV>
+<DIV id=u25 style="position:absolute; left:80px; top:129px; width:150px; height:36px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u25_rtf><span style=" font-family:'\'ce\'a2\'c8\'ed\'d1\'c5\'ba\'da'; color:#000000; font-size:21px;"><b>常用面板</b></span></DIV></DIV>
+<DIV id=u26 style="position:absolute; left:819px; top:73px; width:91px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u26_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>您好，请登录！</u></span></DIV></DIV>
+<span style="position:absolute; left:748px; top:68px; width:22px; height:22px">
+<span id=ou27 style="position:absolute;left:0px;top:0px;width:22px;height:22px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='start_files/u27.png',sizingMethod='scale');
+"><img style="width:22px; height:22px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="start_files/u27.png" border="0" alt=""></span>
+</span>
+<IMG id=u27 src="Resources/transparent.gif" style="position:absolute; left:748px; top:68px; width:22px; height:22px"   >
+
+<DIV id=u27ann style="font-size:1px; position:absolute; left:761px; top:64px; width:1px; height:1px; overflow:visible"></DIV>
+
+<span style="position:absolute; left:796px; top:70px; width:20px; height:20px">
+<span id=ou28 style="position:absolute;left:0px;top:0px;width:20px;height:20px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='start_files/u28.png',sizingMethod='scale');
+"><img style="width:20px; height:20px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="start_files/u28.png" border="0" alt=""></span>
+</span>
+<IMG id=u28 src="Resources/transparent.gif" style="position:absolute; left:796px; top:70px; width:20px; height:20px"   >
+<SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="start_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>

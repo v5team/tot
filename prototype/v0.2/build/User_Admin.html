@@ -1,0 +1,436 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<DIV id=ou0 style="position:absolute; left:20px; top:120px; width:961px; height:371px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:969px; height:379px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u0.png',sizingMethod='scale');
+"><img style="width:969px; height:379px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u0.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u0container style="position:absolute; left:20px; top:120px; width:961px; height:371px;; overflow:visible;">
+
+<DIV id=u1 style="position:absolute; left:2px; top:351px; width:956px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u1_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">红色字体的用户名表示忘记密码且已发送请求重置的同学</span></div></DIV></DIV>
+</DIV>
+<IMG id=u0 src="Resources/transparent.gif" style="position:absolute; left:20px; top:120px; width:960px; height:370px"  >
+
+<DIV id=ou2 style="position:absolute; left:25px; top:150px; width:936px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:944px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u2.png',sizingMethod='scale');
+"><img style="width:944px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u2.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u2container style="position:absolute; left:25px; top:150px; width:936px; height:21px;; overflow:visible;">
+
+<DIV id=u3 style="position:absolute; left:2px; top:2px; width:931px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u3_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u2 src="Resources/transparent.gif" style="position:absolute; left:25px; top:150px; width:935px; height:20px"  >
+
+<DIV id=ou4 style="position:absolute; left:25px; top:150px; width:106px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:114px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u4.png',sizingMethod='scale');
+"><img style="width:114px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u4.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u4container style="position:absolute; left:25px; top:150px; width:106px; height:21px;; overflow:visible;">
+
+<DIV id=u5 style="position:absolute; left:2px; top:1.5px; width:101px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u5_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">龙藏</span></div></DIV></DIV>
+</DIV>
+<IMG id=u4 src="Resources/transparent.gif" style="position:absolute; left:25px; top:150px; width:105px; height:20px"  >
+
+<INPUT id=u6  type=text value="admin,user" style="position:absolute; left:130px; top:150px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u7  type=text value="longzang@taobao.com" style="position:absolute; left:290px; top:150px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=ou8 style="position:absolute; left:25px; top:170px; width:106px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:114px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u4.png',sizingMethod='scale');
+"><img style="width:114px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u4.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u8container style="position:absolute; left:25px; top:170px; width:106px; height:21px;; overflow:visible;">
+
+<DIV id=u9 style="position:absolute; left:2px; top:1.5px; width:101px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u9_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FF0000; font-size:13px;">释然</span></div></DIV></DIV>
+</DIV>
+<IMG id=u8 src="Resources/transparent.gif" style="position:absolute; left:25px; top:170px; width:105px; height:20px"  >
+
+<INPUT id=u10  type=text value="admin,user,receiver" style="position:absolute; left:130px; top:170px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u11  type=text value="shiran@taobao.com" style="position:absolute; left:290px; top:170px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u12  type=submit value="修改" style="position:absolute; left:610px; top:150px; width:50px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u13  type=submit value="修改" style="position:absolute; left:610px; top:170px; width:50px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u14  type=submit value="重设密码" style="position:absolute; left:730px; top:150px; width:80px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u15 disabled type=submit value="重设密码" style="position:absolute; left:730px; top:170px; width:80px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u16  type=password value="longzang@taobao.com" style="position:absolute; left:450px; top:150px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u17  type=password value="longzang@taobao.com" style="position:absolute; left:450px; top:170px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u18  type=submit value="删除" style="position:absolute; left:890px; top:150px; width:70px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u19 disabled type=submit value="删除" style="position:absolute; left:890px; top:170px; width:70px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=u20container style="position:absolute; left:870px; top:154px; width:10px; height:16px; ; ; text-align: left " >
+<DIV id=u21 style="position:absolute; left:16px; top:0px; width:-8px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u21_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:870px; top:154px; width:10px; height:16px; ; ; text-align: left " ><INPUT id=u20 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox checked ></DIV>
+<DIV id=u22container style="position:absolute; left:870px; top:174px; width:10px; height:16px; ; ; text-align: left " >
+<DIV id=u23 style="position:absolute; left:16px; top:0px; width:-8px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u23_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:870px; top:174px; width:10px; height:16px; ; ; text-align: left " ><INPUT id=u22 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u24container style="position:absolute; left:710px; top:154px; width:10px; height:16px; ; ; text-align: left " >
+<DIV id=u25 style="position:absolute; left:16px; top:0px; width:-8px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u25_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:710px; top:154px; width:10px; height:16px; ; ; text-align: left " ><INPUT id=u24 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox checked ></DIV>
+<DIV id=u26container style="position:absolute; left:710px; top:174px; width:10px; height:16px; ; ; text-align: left " >
+<DIV id=u27 style="position:absolute; left:16px; top:0px; width:-8px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u27_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:710px; top:174px; width:10px; height:16px; ; ; text-align: left " ><INPUT id=u26 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=ou28 style="position:absolute; left:25px; top:130px; width:106px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:114px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u4.png',sizingMethod='scale');
+"><img style="width:114px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u4.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u28container style="position:absolute; left:25px; top:130px; width:106px; height:21px;; overflow:visible;">
+
+<DIV id=u29 style="position:absolute; left:2px; top:1.5px; width:101px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u29_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">用户名</span></div></DIV></DIV>
+</DIV>
+<IMG id=u28 src="Resources/transparent.gif" style="position:absolute; left:25px; top:130px; width:105px; height:20px"  >
+
+<DIV id=ou30 style="position:absolute; left:130px; top:130px; width:161px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:169px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u30.png',sizingMethod='scale');
+"><img style="width:169px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u30.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u30container style="position:absolute; left:130px; top:130px; width:161px; height:21px;; overflow:visible;">
+
+<DIV id=u31 style="position:absolute; left:2px; top:1.5px; width:156px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u31_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">用户组</span></div></DIV></DIV>
+</DIV>
+<IMG id=u30 src="Resources/transparent.gif" style="position:absolute; left:130px; top:130px; width:160px; height:20px"  >
+
+<DIV id=ou32 style="position:absolute; left:290px; top:130px; width:161px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:169px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u30.png',sizingMethod='scale');
+"><img style="width:169px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u30.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u32container style="position:absolute; left:290px; top:130px; width:161px; height:21px;; overflow:visible;">
+
+<DIV id=u33 style="position:absolute; left:2px; top:1.5px; width:156px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u33_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">邮箱</span></div></DIV></DIV>
+</DIV>
+<IMG id=u32 src="Resources/transparent.gif" style="position:absolute; left:290px; top:130px; width:160px; height:20px"  >
+
+<DIV id=ou34 style="position:absolute; left:450px; top:130px; width:161px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:169px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u30.png',sizingMethod='scale');
+"><img style="width:169px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u30.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u34container style="position:absolute; left:450px; top:130px; width:161px; height:21px;; overflow:visible;">
+
+<DIV id=u35 style="position:absolute; left:2px; top:1.5px; width:156px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u35_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">密码（</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">MD</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">5）</span></div></DIV></DIV>
+</DIV>
+<IMG id=u34 src="Resources/transparent.gif" style="position:absolute; left:450px; top:130px; width:160px; height:20px"  >
+
+<DIV id=ou36 style="position:absolute; left:25px; top:270px; width:936px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:944px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u2.png',sizingMethod='scale');
+"><img style="width:944px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u2.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u36container style="position:absolute; left:25px; top:270px; width:936px; height:21px;; overflow:visible;">
+
+<DIV id=u37 style="position:absolute; left:2px; top:2px; width:931px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u37_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u36 src="Resources/transparent.gif" style="position:absolute; left:25px; top:270px; width:935px; height:20px"  >
+
+<INPUT id=u38  type=text value="用户名" style="position:absolute; left:26px; top:270px; width:104px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u39  type=text value="" style="position:absolute; left:130px; top:270px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u40  type=text value="" style="position:absolute; left:290px; top:270px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u41  type=text value="123456" style="position:absolute; left:450px; top:270px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u42  type=submit value="添加" style="position:absolute; left:610px; top:270px; width:50px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=ou43 style="position:absolute; left:25px; top:190px; width:936px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:944px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u2.png',sizingMethod='scale');
+"><img style="width:944px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u2.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u43container style="position:absolute; left:25px; top:190px; width:936px; height:21px;; overflow:visible;">
+
+<DIV id=u44 style="position:absolute; left:2px; top:2px; width:931px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u44_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u43 src="Resources/transparent.gif" style="position:absolute; left:25px; top:190px; width:935px; height:20px"  >
+
+<DIV id=ou45 style="position:absolute; left:25px; top:190px; width:106px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:114px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u4.png',sizingMethod='scale');
+"><img style="width:114px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u4.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u45container style="position:absolute; left:25px; top:190px; width:106px; height:21px;; overflow:visible;">
+
+<DIV id=u46 style="position:absolute; left:2px; top:1.5px; width:101px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u46_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">子涯</span></div></DIV></DIV>
+</DIV>
+<IMG id=u45 src="Resources/transparent.gif" style="position:absolute; left:25px; top:190px; width:105px; height:20px"  >
+
+<INPUT id=u47  type=text value="admin,user,receiver" style="position:absolute; left:130px; top:190px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u48  type=text value="@taobao.com" style="position:absolute; left:290px; top:190px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u49  type=submit value="修改" style="position:absolute; left:610px; top:190px; width:50px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u50 disabled type=submit value="重设密码" style="position:absolute; left:730px; top:190px; width:80px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u51  type=password value="longzang@taobao.com" style="position:absolute; left:450px; top:190px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u52 disabled type=submit value="删除" style="position:absolute; left:890px; top:190px; width:70px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=ou53 style="position:absolute; left:25px; top:230px; width:936px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:944px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u2.png',sizingMethod='scale');
+"><img style="width:944px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u2.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u53container style="position:absolute; left:25px; top:230px; width:936px; height:21px;; overflow:visible;">
+
+<DIV id=u54 style="position:absolute; left:2px; top:2px; width:931px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u54_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u53 src="Resources/transparent.gif" style="position:absolute; left:25px; top:230px; width:935px; height:20px"  >
+
+<DIV id=ou55 style="position:absolute; left:25px; top:210px; width:106px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:114px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u4.png',sizingMethod='scale');
+"><img style="width:114px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u4.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u55container style="position:absolute; left:25px; top:210px; width:106px; height:21px;; overflow:visible;">
+
+<DIV id=u56 style="position:absolute; left:2px; top:1.5px; width:101px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u56_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FF0000; font-size:13px;">龙刚</span></div></DIV></DIV>
+</DIV>
+<IMG id=u55 src="Resources/transparent.gif" style="position:absolute; left:25px; top:210px; width:105px; height:20px"  >
+
+<INPUT id=u57  type=text value="admin,user,receiver" style="position:absolute; left:130px; top:210px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u58  type=text value="@taobao.com" style="position:absolute; left:290px; top:210px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u59  type=submit value="修改" style="position:absolute; left:610px; top:210px; width:50px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u60 disabled type=submit value="重设密码" style="position:absolute; left:730px; top:210px; width:80px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u61  type=password value="longzang@taobao.com" style="position:absolute; left:450px; top:210px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u62 disabled type=submit value="删除" style="position:absolute; left:890px; top:210px; width:70px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=ou63 style="position:absolute; left:25px; top:230px; width:106px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:114px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u4.png',sizingMethod='scale');
+"><img style="width:114px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u4.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u63container style="position:absolute; left:25px; top:230px; width:106px; height:21px;; overflow:visible;">
+
+<DIV id=u64 style="position:absolute; left:2px; top:1.5px; width:101px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u64_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">王卓</span></div></DIV></DIV>
+</DIV>
+<IMG id=u63 src="Resources/transparent.gif" style="position:absolute; left:25px; top:230px; width:105px; height:20px"  >
+
+<INPUT id=u65  type=text value="admin,user,receiver" style="position:absolute; left:130px; top:230px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u66  type=text value="@taobao.com" style="position:absolute; left:290px; top:230px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u67  type=submit value="修改" style="position:absolute; left:610px; top:230px; width:50px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u68 disabled type=submit value="重设密码" style="position:absolute; left:730px; top:230px; width:80px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u69  type=password value="longzang@taobao.com" style="position:absolute; left:450px; top:230px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u70 disabled type=submit value="删除" style="position:absolute; left:890px; top:230px; width:70px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=ou71 style="position:absolute; left:25px; top:250px; width:106px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:114px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u4.png',sizingMethod='scale');
+"><img style="width:114px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u4.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u71container style="position:absolute; left:25px; top:250px; width:106px; height:21px;; overflow:visible;">
+
+<DIV id=u72 style="position:absolute; left:2px; top:1.5px; width:101px; height:17px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u72_rtf><div style="text-align:center"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">圆心</span></div></DIV></DIV>
+</DIV>
+<IMG id=u71 src="Resources/transparent.gif" style="position:absolute; left:25px; top:250px; width:105px; height:20px"  >
+
+<INPUT id=u73  type=text value="guest" style="position:absolute; left:130px; top:250px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u74  type=text value="@taobao.com" style="position:absolute; left:290px; top:250px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u75  type=submit value="修改" style="position:absolute; left:610px; top:250px; width:50px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u76 disabled type=submit value="重设密码" style="position:absolute; left:730px; top:250px; width:80px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u77  type=password value="longzang@taobao.com" style="position:absolute; left:450px; top:250px; width:160px; height:20px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u78 disabled type=submit value="删除" style="position:absolute; left:890px; top:250px; width:70px; height:20px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<DIV id=u79container style="position:absolute; left:710px; top:194px; width:10px; height:16px; ; ; text-align: left " >
+<DIV id=u80 style="position:absolute; left:16px; top:0px; width:-8px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u80_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:710px; top:194px; width:10px; height:16px; ; ; text-align: left " ><INPUT id=u79 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u81container style="position:absolute; left:710px; top:214px; width:10px; height:16px; ; ; text-align: left " >
+<DIV id=u82 style="position:absolute; left:16px; top:0px; width:-8px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u82_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:710px; top:214px; width:10px; height:16px; ; ; text-align: left " ><INPUT id=u81 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u83container style="position:absolute; left:710px; top:234px; width:10px; height:16px; ; ; text-align: left " >
+<DIV id=u84 style="position:absolute; left:16px; top:0px; width:-8px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u84_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:710px; top:234px; width:10px; height:16px; ; ; text-align: left " ><INPUT id=u83 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u85container style="position:absolute; left:710px; top:254px; width:10px; height:16px; ; ; text-align: left " >
+<DIV id=u86 style="position:absolute; left:16px; top:0px; width:-8px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u86_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:710px; top:254px; width:10px; height:16px; ; ; text-align: left " ><INPUT id=u85 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u87container style="position:absolute; left:870px; top:194px; width:10px; height:16px; ; ; text-align: left " >
+<DIV id=u88 style="position:absolute; left:16px; top:0px; width:-8px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u88_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:870px; top:194px; width:10px; height:16px; ; ; text-align: left " ><INPUT id=u87 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u89container style="position:absolute; left:870px; top:214px; width:10px; height:16px; ; ; text-align: left " >
+<DIV id=u90 style="position:absolute; left:16px; top:0px; width:-8px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u90_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:870px; top:214px; width:10px; height:16px; ; ; text-align: left " ><INPUT id=u89 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u91container style="position:absolute; left:870px; top:234px; width:10px; height:16px; ; ; text-align: left " >
+<DIV id=u92 style="position:absolute; left:16px; top:0px; width:-8px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u92_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:870px; top:234px; width:10px; height:16px; ; ; text-align: left " ><INPUT id=u91 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u93container style="position:absolute; left:870px; top:254px; width:10px; height:16px; ; ; text-align: left " >
+<DIV id=u94 style="position:absolute; left:16px; top:0px; width:-8px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u94_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<DIV style="position:absolute; left:870px; top:254px; width:10px; height:16px; ; ; text-align: left " ><INPUT id=u93 style="position:absolute; left:-3px; top:-2px;" type=checkbox value=checkbox  ></DIV>
+<DIV id=u95 style="position:absolute; left:849px; top:93px; width:80px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u95_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>您好，龙藏！</u></span></DIV></DIV>
+<span style="position:absolute; left:940px; top:80px; width:30px; height:30px">
+<span id=ou96 style="position:absolute;left:0px;top:0px;width:30px;height:30px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u96.png',sizingMethod='scale');
+"><img style="width:30px; height:30px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u96.png" border="0" alt=""></span>
+</span>
+<IMG id=u96 src="Resources/transparent.gif" style="position:absolute; left:940px; top:80px; width:30px; height:30px"   >
+
+<span style="position:absolute; left:778px; top:88px; width:22px; height:22px">
+<span id=ou97 style="position:absolute;left:0px;top:0px;width:22px;height:22px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u97.png',sizingMethod='scale');
+"><img style="width:22px; height:22px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u97.png" border="0" alt=""></span>
+</span>
+<IMG id=u97 src="Resources/transparent.gif" style="position:absolute; left:778px; top:88px; width:22px; height:22px"   >
+
+<DIV id=u97ann style="font-size:1px; position:absolute; left:791px; top:84px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=ou98 style="position:absolute; left:20px; top:20px; width:351px; height:76px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:359px; height:84px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u98.png',sizingMethod='scale');
+"><img style="width:359px; height:84px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u98.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u98container style="position:absolute; left:20px; top:20px; width:351px; height:76px;; overflow:visible;">
+
+<DIV id=u99 style="position:absolute; left:2px; top:3.5px; width:346px; height:68px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u99_rtf><div style="text-align:center"><span style=" font-family:'Arial Black'; color:#000000; font-size:48px;"><b>TraceTeam</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u98 src="Resources/transparent.gif" style="position:absolute; left:20px; top:20px; width:350px; height:75px"  >
+
+<span style="position:absolute; left:826px; top:90px; width:20px; height:20px">
+<span id=ou100 style="position:absolute;left:0px;top:0px;width:20px;height:20px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='User_Admin_files/u100.png',sizingMethod='scale');
+"><img style="width:20px; height:20px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="User_Admin_files/u100.png" border="0" alt=""></span>
+</span>
+<IMG id=u100 src="Resources/transparent.gif" style="position:absolute; left:826px; top:90px; width:20px; height:20px"   >
+<SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="User_Admin_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>
