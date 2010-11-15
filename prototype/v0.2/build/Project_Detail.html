@@ -1,0 +1,368 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<DIV id=ou0 style="position:absolute; left:20px; top:130px; width:951px; height:61px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:959px; height:69px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='project_detail_files/u0.png',sizingMethod='scale');
+"><img style="width:959px; height:69px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="project_detail_files/u0.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u0container style="position:absolute; left:20px; top:130px; width:951px; height:61px;; overflow:visible;">
+
+<DIV id=u1 style="position:absolute; left:2px; top:22px; width:946px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u1_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u0 src="Resources/transparent.gif" style="position:absolute; left:20px; top:130px; width:950px; height:60px"  >
+
+<DIV id=u2 style="position:absolute; left:30px; top:145px; width:920px; height:25px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u2_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:19px;"><b>【项目】追加分享追加分享追加分享追加分享追加分享</b></span></DIV></DIV>
+<DIV id=u3 style="position:absolute; left:80px; top:213px; width:50px; height:28px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u3_rtf><span style=" font-family:'\'ce\'a2\'c8\'ed\'d1\'c5\'ba\'da'; color:#000000; font-size:16px;"><b>总体：</b></span></DIV></DIV>
+<DIV id=u4 style="position:absolute; left:80px; top:1090px; width:90px; height:28px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u4_rtf><span style=" font-family:'\'ce\'a2\'c8\'ed\'d1\'c5\'ba\'da'; color:#000000; font-size:16px;"><b>任务集：</b></span></DIV></DIV>
+<DIV id=u4ann style="font-size:1px; position:absolute; left:161px; top:1086px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=u5 style="position:absolute; left:80px; top:270px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u5_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">进度:</span></div></DIV></DIV>
+<DIV id=u6 style="position:absolute; left:80px; top:290px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u6_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">参考工时:</span></div></DIV></DIV>
+<DIV id=u7 style="position:absolute; left:80px; top:310px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u7_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">期望完成时间:</span></div></DIV></DIV>
+<DIV id=u8 style="position:absolute; left:80px; top:330px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u8_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">预期工时:</span></div></DIV></DIV>
+<DIV id=u9 style="position:absolute; left:80px; top:350px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u9_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">已使用工时:</span></div></DIV></DIV>
+<DIV id=u10 style="position:absolute; left:80px; top:253px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u10_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">来源方:</span></div></DIV></DIV>
+<DIV id=u11 style="position:absolute; left:210px; top:1413px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u11_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">计划开始时间:</span></div></DIV></DIV>
+<DIV id=u12 style="position:absolute; left:210px; top:1433px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u12_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">计划完成时间:</span></div></DIV></DIV>
+<DIV id=u13 style="position:absolute; left:180px; top:1133px; width:500px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u13_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>* 二级子任务1</u></span></DIV></DIV>
+<DIV id=u14 style="position:absolute; left:200px; top:1153px; width:500px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u14_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>* 三级子任务</u></span></DIV></DIV>
+<DIV id=u15 style="position:absolute; left:130px; top:1310px; width:760px; height:25px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u15_rtf><span style=" font-family:'\'ce\'a2\'c8\'ed\'d1\'c5\'ba\'da'; color:#000000; font-size:13px;"><b>二级子任务1：</b></span></DIV></DIV>
+<DIV id=u16 style="position:absolute; left:140px; top:1770px; width:750px; height:25px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u16_rtf><span style=" font-family:'\'ce\'a2\'c8\'ed\'d1\'c5\'ba\'da'; color:#000000; font-size:13px;"><b>三级子任务：</b></span></DIV></DIV>
+<DIV id=u17 style="position:absolute; left:210px; top:1353px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u17_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">进度:</span></div></DIV></DIV>
+<DIV id=u18 style="position:absolute; left:210px; top:1373px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u18_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">预期工时:</span></div></DIV></DIV>
+<DIV id=u19 style="position:absolute; left:210px; top:1393px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u19_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">已使用工时:</span></div></DIV></DIV>
+<DIV id=u20 style="position:absolute; left:210px; top:1453px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u20_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">实际开始时间:</span></div></DIV></DIV>
+<DIV id=u21 style="position:absolute; left:210px; top:1473px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u21_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">实际完成时间:</span></div></DIV></DIV>
+<DIV id=u22 style="position:absolute; left:200px; top:1893px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u22_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">计划开始时间:</span></div></DIV></DIV>
+<DIV id=u23 style="position:absolute; left:200px; top:1913px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u23_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">计划完成时间:</span></div></DIV></DIV>
+<DIV id=u24 style="position:absolute; left:200px; top:1833px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u24_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">进度:</span></div></DIV></DIV>
+<DIV id=u25 style="position:absolute; left:200px; top:1853px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u25_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">预期工时:</span></div></DIV></DIV>
+<DIV id=u26 style="position:absolute; left:200px; top:1873px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u26_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">已使用工时:</span></div></DIV></DIV>
+<DIV id=u27 style="position:absolute; left:200px; top:1933px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u27_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">实际开始时间:</span></div></DIV></DIV>
+<DIV id=u28 style="position:absolute; left:200px; top:1953px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u28_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">实际完成时间:</span></div></DIV></DIV>
+<DIV id=u29 style="position:absolute; left:300px; top:1473px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u29_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">2010-10-28</span></DIV></DIV>
+<DIV id=u30 style="position:absolute; left:300px; top:1453px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u30_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">2010-10-28</span></DIV></DIV>
+<DIV id=u31 style="position:absolute; left:300px; top:1433px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u31_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">2010-10-28</span></DIV></DIV>
+<DIV id=u32 style="position:absolute; left:300px; top:1413px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u32_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">2010-10-28</span></DIV></DIV>
+<DIV id=u33 style="position:absolute; left:180px; top:430px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u33_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">2010-10-28</span></DIV></DIV>
+<DIV id=u34 style="position:absolute; left:180px; top:410px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u34_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">2010-10-28</span></DIV></DIV>
+<DIV id=u35 style="position:absolute; left:180px; top:390px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u35_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">2010-10-28</span></DIV></DIV>
+<DIV id=u36 style="position:absolute; left:180px; top:370px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u36_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">2010-10-28</span></DIV></DIV>
+<DIV id=u37 style="position:absolute; left:80px; top:370px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u37_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">计划开始时间:</span></div></DIV></DIV>
+<DIV id=u38 style="position:absolute; left:80px; top:390px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u38_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">计划完成时间:</span></div></DIV></DIV>
+<DIV id=u39 style="position:absolute; left:80px; top:410px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u39_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">实际开始时间:</span></div></DIV></DIV>
+<DIV id=u40 style="position:absolute; left:80px; top:430px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u40_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">实际完成时间:</span></div></DIV></DIV>
+<DIV id=u41 style="position:absolute; left:180px; top:310px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u41_rtf><span style=" font-family:'Arial'; color:#FF0000; font-size:13px;"><b>2010-10-28</b></span></DIV></DIV>
+<DIV id=u42 style="position:absolute; left:180px; top:253px; width:150px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u42_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>大神</u></span></DIV></DIV>
+<DIV id=u43 style="position:absolute; left:180px; top:271px; width:150px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u43_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FF0000; font-size:13px;"><b>50%</b></span></DIV></DIV>
+<DIV id=u44 style="position:absolute; left:180px; top:290px; width:150px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u44_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">44</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">H</span></DIV></DIV>
+<DIV id=u45 style="position:absolute; left:180px; top:330px; width:150px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u45_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">44</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">H</span></DIV></DIV>
+<DIV id=u46 style="position:absolute; left:180px; top:350px; width:150px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u46_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">44</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">H</span></DIV></DIV>
+<DIV id=u47 style="position:absolute; left:300px; top:1376px; width:150px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u47_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">44</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">H</span></DIV></DIV>
+<DIV id=u48 style="position:absolute; left:300px; top:1396px; width:150px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u48_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">44</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">H</span></DIV></DIV>
+<DIV id=u49 style="position:absolute; left:300px; top:1353px; width:150px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u49_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FF0000; font-size:13px;"><b>50%</b></span></DIV></DIV>
+<DIV id=u50 style="position:absolute; left:290px; top:1953px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u50_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">2010-10-28</span></DIV></DIV>
+<DIV id=u51 style="position:absolute; left:290px; top:1933px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u51_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">2010-10-28</span></DIV></DIV>
+<DIV id=u52 style="position:absolute; left:290px; top:1913px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u52_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">2010-10-28</span></DIV></DIV>
+<DIV id=u53 style="position:absolute; left:290px; top:1893px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u53_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">2010-10-28</span></DIV></DIV>
+<DIV id=u54 style="position:absolute; left:290px; top:1856px; width:150px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u54_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">44</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">H</span></DIV></DIV>
+<DIV id=u55 style="position:absolute; left:290px; top:1876px; width:150px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u55_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">44</span><span style=" font-family:'Arial'; color:#000000; font-size:13px;">H</span></DIV></DIV>
+<DIV id=u56 style="position:absolute; left:290px; top:1833px; width:150px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u56_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FF0000; font-size:13px;"><b>100%</b></span></DIV></DIV>
+<DIV id=u57 style="position:absolute; left:180px; top:1173px; width:500px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u57_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>* 二级子任务2</u></span></DIV></DIV>
+<DIV id=u58 style="position:absolute; left:180px; top:1190px; width:500px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u58_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>* 二级子任务3</u></span></DIV></DIV>
+<DIV id=u59 style="position:absolute; left:180px; top:1207px; width:500px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u59_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>* 二级子任务4</u></span></DIV></DIV>
+<DIV id=u60 style="position:absolute; left:180px; top:1224px; width:500px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u60_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>* 二级子任务5</u></span></DIV></DIV>
+<DIV id=u61 style="position:absolute; left:180px; top:1241px; width:500px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u61_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>* 二级子任务6</u></span></DIV></DIV>
+<DIV id=u62 style="position:absolute; left:130px; top:1153px; width:70px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u62_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0099FF; font-size:13px;">【已完成】</span></div></DIV></DIV>
+<DIV id=u63 style="position:absolute; left:110px; top:1133px; width:70px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u63_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#009933; font-size:13px;">【进行中】</span></div></DIV></DIV>
+<DIV id=u64 style="position:absolute; left:110px; top:1170px; width:70px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u64_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FF0033; font-size:13px;">【暂停】</span></div></DIV></DIV>
+<DIV id=u65 style="position:absolute; left:110px; top:1192px; width:70px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u65_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FF9933; font-size:13px;">【未开始】</span></div></DIV></DIV>
+<DIV id=u66 style="position:absolute; left:110px; top:1212px; width:70px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u66_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#CCCCCC; font-size:13px;">【已删除】</span></div></DIV></DIV>
+<DIV id=u67 style="position:absolute; left:110px; top:1227px; width:70px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u67_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FF9933; font-size:13px;">【未开始】</span></div></DIV></DIV>
+<DIV id=u68 style="position:absolute; left:110px; top:1243px; width:70px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u68_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FF9933; font-size:13px;">【未开始】</span></div></DIV></DIV>
+<DIV id=u69 style="position:absolute; left:130px; top:220px; width:70px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u69_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#009933; font-size:13px;">【进行中】</span></DIV></DIV>
+<DIV id=u70 style="position:absolute; left:60px; top:1315px; width:70px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u70_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#009933; font-size:13px;">【进行中】</span></div></DIV></DIV>
+<DIV id=u71 style="position:absolute; left:69px; top:1775px; width:70px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u71_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0099FF; font-size:13px;">【已完成】</span></div></DIV></DIV>
+<DIV id=u72 style="position:absolute; left:849px; top:93px; width:80px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u72_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>您好，龙藏！</u></span></DIV></DIV>
+<span style="position:absolute; left:940px; top:80px; width:30px; height:30px">
+<span id=ou73 style="position:absolute;left:0px;top:0px;width:30px;height:30px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='project_detail_files/u73.png',sizingMethod='scale');
+"><img style="width:30px; height:30px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="project_detail_files/u73.png" border="0" alt=""></span>
+</span>
+<IMG id=u73 src="Resources/transparent.gif" style="position:absolute; left:940px; top:80px; width:30px; height:30px"   >
+
+<span style="position:absolute; left:778px; top:88px; width:22px; height:22px">
+<span id=ou74 style="position:absolute;left:0px;top:0px;width:22px;height:22px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='project_detail_files/u74.png',sizingMethod='scale');
+"><img style="width:22px; height:22px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="project_detail_files/u74.png" border="0" alt=""></span>
+</span>
+<IMG id=u74 src="Resources/transparent.gif" style="position:absolute; left:778px; top:88px; width:22px; height:22px"   >
+
+<DIV id=u74ann style="font-size:1px; position:absolute; left:791px; top:84px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=ou75 style="position:absolute; left:20px; top:20px; width:351px; height:76px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:359px; height:84px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='project_detail_files/u75.png',sizingMethod='scale');
+"><img style="width:359px; height:84px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="project_detail_files/u75.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u75container style="position:absolute; left:20px; top:20px; width:351px; height:76px;; overflow:visible;">
+
+<DIV id=u76 style="position:absolute; left:2px; top:3.5px; width:346px; height:68px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u76_rtf><div style="text-align:center"><span style=" font-family:'Arial Black'; color:#000000; font-size:48px;"><b>TraceTeam</b></span></div></DIV></DIV>
+</DIV>
+<IMG id=u75 src="Resources/transparent.gif" style="position:absolute; left:20px; top:20px; width:350px; height:75px"  >
+
+<span style="position:absolute; left:826px; top:90px; width:20px; height:20px">
+<span id=ou77 style="position:absolute;left:0px;top:0px;width:20px;height:20px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='project_detail_files/u77.png',sizingMethod='scale');
+"><img style="width:20px; height:20px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="project_detail_files/u77.png" border="0" alt=""></span>
+</span>
+<IMG id=u77 src="Resources/transparent.gif" style="position:absolute; left:826px; top:90px; width:20px; height:20px"   >
+
+<DIV id=u78 style="position:absolute; left:80px; top:453px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u78_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">参与成员:</span></div></DIV></DIV>
+<DIV id=u79 style="position:absolute; left:180px; top:453px; width:40px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u79_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>龙藏</u>,</span></DIV></DIV>
+<DIV id=u79ann style="font-size:1px; position:absolute; left:211px; top:449px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=u80 style="position:absolute; left:220px; top:453px; width:40px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u80_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>龙藏</u>,</span></DIV></DIV>
+<DIV id=u81 style="position:absolute; left:260px; top:453px; width:40px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u81_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>龙藏</u>,</span></DIV></DIV>
+<DIV id=u82 style="position:absolute; left:300px; top:453px; width:40px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u82_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>龙藏</u>,</span></DIV></DIV>
+<DIV id=u83 style="position:absolute; left:340px; top:453px; width:40px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u83_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>龙藏</u>,</span></DIV></DIV>
+<DIV id=u84 style="position:absolute; left:380px; top:453px; width:40px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u84_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>龙藏</u>,</span></DIV></DIV>
+<DIV id=u85 style="position:absolute; left:420px; top:453px; width:40px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u85_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>龙藏</u>,</span></DIV></DIV>
+<DIV id=u86 style="position:absolute; left:460px; top:453px; width:40px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u86_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>龙藏</u></span></DIV></DIV>
+<DIV id=u87 style="position:absolute; left:210px; top:1493px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u87_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">执行者:</span></div></DIV></DIV>
+<DIV id=u88 style="position:absolute; left:80px; top:473px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u88_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">创建者:</span></div></DIV></DIV>
+<DIV id=u89 style="position:absolute; left:80px; top:520px; width:100px; height:28px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u89_rtf><span style=" font-family:'\'ce\'a2\'c8\'ed\'d1\'c5\'ba\'da'; color:#000000; font-size:16px;"><b>所有风险：</b></span></DIV></DIV>
+<DIV id=u89ann style="font-size:1px; position:absolute; left:171px; top:516px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=u90 style="position:absolute; left:80px; top:558px; width:860px; height:51px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u90_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FF0000; font-size:13px;">【未解决】</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><u>由于排版的需要，视觉稿上面的图片尺寸设计师会有自己的制定，同时强调要完全按照其尺寸产出页面，而事实上 TFS 在产出图片/缩略图时，会有严格的规范，这就意味着如果要符合排版的要求那么必定不能按照原始比例输出图片，相应的解决方案是对图片进行溢出控制或拉伸，而这两者用户体验都是不良好的，同时会带来不少的工作量</u></span></DIV></DIV>
+<DIV id=u90ann style="font-size:1px; position:absolute; left:931px; top:554px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=u91 style="position:absolute; left:80px; top:620px; width:860px; height:51px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u91_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FF0000; font-size:13px;">【未解决】</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><u>由于排版的需要，视觉稿上面的图片尺寸设计师会有自己的制定，同时强调要完全按照其尺寸产出页面，而事实上 TFS 在产出图片/缩略图时，会有严格的规范，这就意味着如果要符合排版的要求那么必定不能按照原始比例输出图片，相应的解决方案是对图片进行溢出控制或拉伸，而这两者用户体验都是不良好的，同时会带来不少的工作量</u></span></DIV></DIV>
+<DIV id=u92 style="position:absolute; left:80px; top:680px; width:860px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u92_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0099FF; font-size:13px;">【已解决】</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><u>用户登录会有图片丢帧</u></span></DIV></DIV>
+<DIV id=u93 style="position:absolute; left:80px; top:708px; width:860px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u93_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0099FF; font-size:13px;">【已解决】</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><u>用户登录会有图片丢帧</u></span></DIV></DIV>
+<DIV id=u94 style="position:absolute; left:80px; top:738px; width:860px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u94_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0099FF; font-size:13px;">【已解决】</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><u>用户登录会有图片丢帧</u></span></DIV></DIV>
+<DIV id=u95 style="position:absolute; left:80px; top:768px; width:860px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u95_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0099FF; font-size:13px;">【已解决】</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><u>用户登录会有图片丢帧</u></span></DIV></DIV>
+<DIV id=u96 style="position:absolute; left:80px; top:798px; width:860px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u96_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0099FF; font-size:13px;">【已解决】</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><u>用户登录会有图片丢帧</u></span></DIV></DIV>
+<DIV id=u97 style="position:absolute; left:80px; top:821px; width:860px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u97_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0099FF; font-size:13px;">【已解决】</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><u>用户登录会有图片丢帧</u></span></DIV></DIV>
+<DIV id=u98 style="position:absolute; left:80px; top:848px; width:860px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u98_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0099FF; font-size:13px;">【已解决】</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><u>用户登录会有图片丢帧</u></span></DIV></DIV>
+<DIV id=u99 style="position:absolute; left:180px; top:473px; width:40px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u99_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>龙藏</u></span></DIV></DIV>
+<DIV id=u100 style="position:absolute; left:300px; top:1493px; width:40px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u100_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>龙藏</u></span></DIV></DIV>
+<DIV id=u101 style="position:absolute; left:200px; top:1973px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u101_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">执行者:</span></div></DIV></DIV>
+<DIV id=u102 style="position:absolute; left:290px; top:1973px; width:40px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u102_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>龙藏</u></span></DIV></DIV>
+<DIV id=u103 style="position:absolute; left:200px; top:1993px; width:90px; height:17px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u103_rtf><div style="text-align:right"><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">父任务:</span></div></DIV></DIV>
+<DIV id=u104 style="position:absolute; left:290px; top:1993px; width:90px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u104_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#0000FF; font-size:13px;"><u>二级子任务1</u></span></DIV></DIV>
+<DIV id=u104ann style="font-size:1px; position:absolute; left:371px; top:1989px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=u105 style="position:absolute; left:180px; top:1552px; width:610px; height:68px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u105_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#FF0000; font-size:13px;">【未解决】</span><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;"><u>由于排版的需要，视觉稿上面的图片尺寸设计师会有自己的制定，同时强调要完全按照其尺寸产出页面，而事实上 TFS 在产出图片/缩略图时，会有严格的规范，这就意味着如果要符合排版的要求那么必定不能按照原始比例输出图片，相应的解决方案是对图片进行溢出控制或拉伸，而这两者用户体验都是不良好的，同时会带来不少的工作量</u></span></DIV></DIV>
+<DIV id=u106 style="position:absolute; left:110px; top:1522px; width:90px; height:25px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u106_rtf><div style="text-align:right"><span style=" font-family:'\'ce\'a2\'c8\'ed\'d1\'c5\'ba\'da'; color:#000000; font-size:13px;"><b>风险:</b></span></div></DIV></DIV>
+<DIV id=u107 style="position:absolute; left:120px; top:1805px; width:90px; height:25px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u107_rtf><div style="text-align:right"><span style=" font-family:'\'ce\'a2\'c8\'ed\'d1\'c5\'ba\'da'; color:#000000; font-size:13px;"><b>详情:</b></span></div></DIV></DIV>
+<DIV id=u108 style="position:absolute; left:80px; top:902px; width:100px; height:28px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u108_rtf><span style=" font-family:'\'ce\'a2\'c8\'ed\'d1\'c5\'ba\'da'; color:#000000; font-size:16px;"><b>所有备注：</b></span></DIV></DIV>
+<DIV id=u108ann style="font-size:1px; position:absolute; left:171px; top:898px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=u109 style="position:absolute; left:100px; top:943px; width:690px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u109_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">*&nbsp; <u>经验教训是接受视觉稿之前必须了解 TFS 所能输出的图片尺寸，同时按照其规范尺寸与设计师协商制定页面排版。</u></span></DIV></DIV>
+<DIV id=u109ann style="font-size:1px; position:absolute; left:781px; top:939px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=u110 style="position:absolute; left:100px; top:963px; width:840px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u110_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">*&nbsp; <u>经验教训是接受视觉稿之前必须了解 TFS 所能输出的图片尺寸，同时按照其规范尺寸与设计师协商制定页面排版。</u></span></DIV></DIV>
+<DIV id=u111 style="position:absolute; left:100px; top:983px; width:840px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u111_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">*&nbsp; <u>经验教训是接受视觉稿之前必须了解 TFS 所能输出的图片尺寸，同时按照其规范尺寸与设计师协商制定页面排版。</u></span></DIV></DIV>
+<DIV id=u112 style="position:absolute; left:100px; top:1003px; width:840px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u112_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">*&nbsp; <u>经验教训是接受视觉稿之前必须了解 TFS 所能输出的图片尺寸，同时按照其规范尺寸与设计师协商制定页面排版。</u></span></DIV></DIV>
+<DIV id=u113 style="position:absolute; left:100px; top:1020px; width:840px; height:17px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u113_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">*&nbsp; <u>经验教训是接受视觉稿之前必须了解 TFS 所能输出的图片尺寸，同时按照其规范尺寸与设计师协商制定页面排版。</u></span></DIV></DIV>
+<DIV id=u114 style="position:absolute; left:180px; top:1670px; width:600px; height:34px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u114_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">*&nbsp; <u>经验教训是接受视觉稿之前必须了解 TFS 所能输出的图片尺寸，同时按照其规范尺寸与设计师协商制定页面排版。</u></span></DIV></DIV>
+<DIV id=u115 style="position:absolute; left:110px; top:1640px; width:90px; height:25px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u115_rtf><div style="text-align:right"><span style=" font-family:'\'ce\'a2\'c8\'ed\'d1\'c5\'ba\'da'; color:#000000; font-size:13px;"><b>备注:</b></span></div></DIV></DIV>
+<DIV id=u116 style="position:absolute; left:180px; top:1710px; width:600px; height:34px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u116_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">*&nbsp; <u>经验教训是接受视觉稿之前必须了解 TFS 所能输出的图片尺寸，同时按照其规范尺寸与设计师协商制定页面排版。</u></span></DIV></DIV>
+<span style="position:absolute; left:100px; top:1130px; width:16px; height:16px">
+<span id=ou117 style="position:absolute;left:0px;top:0px;width:16px;height:16px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='project_detail_files/u117.png',sizingMethod='scale');
+"><img style="width:16px; height:16px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="project_detail_files/u117.png" border="0" alt=""></span>
+</span>
+<IMG id=u117 src="Resources/transparent.gif" style="position:absolute; left:100px; top:1130px; width:16px; height:16px"   >
+
+<DIV id=u117ann style="font-size:1px; position:absolute; left:107px; top:1126px; width:1px; height:1px; overflow:visible"></DIV>
+
+<span style="position:absolute; left:114px; top:1170px; width:16px; height:16px">
+<span id=ou118 style="position:absolute;left:0px;top:0px;width:16px;height:16px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='project_detail_files/u118.png',sizingMethod='scale');
+"><img style="width:16px; height:16px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="project_detail_files/u118.png" border="0" alt=""></span>
+</span>
+<IMG id=u118 src="Resources/transparent.gif" style="position:absolute; left:114px; top:1170px; width:16px; height:16px"   >
+
+<span style="position:absolute; left:100px; top:1228px; width:16px; height:16px">
+<span id=ou119 style="position:absolute;left:0px;top:0px;width:16px;height:16px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='project_detail_files/u119.png',sizingMethod='scale');
+"><img style="width:16px; height:16px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="project_detail_files/u119.png" border="0" alt=""></span>
+</span>
+<IMG id=u119 src="Resources/transparent.gif" style="position:absolute; left:100px; top:1228px; width:16px; height:16px"   >
+
+<DIV id=u119ann style="font-size:1px; position:absolute; left:107px; top:1224px; width:1px; height:1px; overflow:visible"></DIV>
+
+<span style="position:absolute; left:60px; top:1774px; width:16px; height:16px">
+<span id=ou120 style="position:absolute;left:0px;top:0px;width:16px;height:16px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='project_detail_files/u120.png',sizingMethod='scale');
+"><img style="width:16px; height:16px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="project_detail_files/u120.png" border="0" alt=""></span>
+</span>
+<IMG id=u120 src="Resources/transparent.gif" style="position:absolute; left:60px; top:1774px; width:16px; height:16px"   >
+
+<DIV id=u120ann style="font-size:1px; position:absolute; left:67px; top:1770px; width:1px; height:1px; overflow:visible"></DIV>
+
+<span style="position:absolute; left:50px; top:1314px; width:16px; height:16px">
+<span id=ou121 style="position:absolute;left:0px;top:0px;width:16px;height:16px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='project_detail_files/u121.png',sizingMethod='scale');
+"><img style="width:16px; height:16px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="project_detail_files/u121.png" border="0" alt=""></span>
+</span>
+<IMG id=u121 src="Resources/transparent.gif" style="position:absolute; left:50px; top:1314px; width:16px; height:16px"   >
+
+<DIV id=u121ann style="font-size:1px; position:absolute; left:57px; top:1310px; width:1px; height:1px; overflow:visible"></DIV>
+
+<DIV id=u122 style="position:absolute; left:190px; top:2056px; width:600px; height:34px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u122_rtf><span style=" font-family:'\'cb\'ce\'cc\'e5'; color:#000000; font-size:13px;">*&nbsp; <u>经验教训是接受视觉稿之前必须了解 TFS 所能输出的图片尺寸，同时按照其规范尺寸与设计师协商制定页面排版。</u></span></DIV></DIV>
+<DIV id=u123 style="position:absolute; left:120px; top:2026px; width:90px; height:25px; ; ; text-align: right ; font-family:Arial; text-align:left; word-wrap:break-word;" >
+<DIV id=u123_rtf><div style="text-align:right"><span style=" font-family:'\'ce\'a2\'c8\'ed\'d1\'c5\'ba\'da'; color:#000000; font-size:13px;"><b>备注:</b></span></div></DIV></DIV><SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="project_detail_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>
