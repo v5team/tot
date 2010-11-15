@@ -582,6 +582,17 @@ gv_vAlignTable['u191'] = 'top';
 var u103 = document.getElementById('u103');
 gv_vAlignTable['u103'] = 'top';
 var u25 = document.getElementById('u25');
+
+x = 0;
+y = 0;
+InsertAfterBegin(document.getElementById('u25ann'), "<div id='u25Note' class='annnotelabel' style='left:" + x + ";top:" + y + "' onclick=\"ToggleWorkflow(event, 'u25', 300, 300, false)\">?</div>");
+
+eval(annwindow.replace(/\[\[id\]\]/g, 'u25').replace(/\[\[label\]\]/g, "?"));
+
+InsertAfterBegin(document.body, "<div id='u25based' style='z-index:1; visibility:hidden; position:absolute'></div><div id='u25base' style='z-index:1; visibility:hidden; position:absolute'></div>");
+var u25based = document.getElementById('u25based');
+            
+InsertBeforeEnd(u25based, "<div class='anncontent'><span class='annfieldname'>Specification:</span> https://is.taobao.org/souren/Default.aspx?&amp;query=%E9%87%8A%E7%84%B6#Link~fa18387d-514e-493d-b879-ca9a9d20f2d2<BR><BR></div>");
 gv_vAlignTable['u25'] = 'top';
 var u153 = document.getElementById('u153');
 gv_vAlignTable['u153'] = 'top';

@@ -175,7 +175,7 @@ function Clicku18(e)
 
 if (true) {
 
-	self.location.href="package_receiver_check.html" + GetQuerystring();
+	self.location.href="#" + GetQuerystring();
 
 }
 
