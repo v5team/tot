@@ -52,3 +52,39 @@
 	font:400 14px/40px tahoma;
 	border-bottom:1px solid #ccc;
 }
+
+/* 表单控件部分 */
+.input-field {
+	padding:3px;
+	border:4px solid #f4c6cf;
+	-moz-border-bottom-colors:#f4c6cf #f4c6cf #fff #fff;
+	-moz-border-top-colors:#f4c6cf #f4c6cf #fff #fff;
+	-moz-border-left-colors:#f4c6cf #f4c6cf #fff #fff;
+	-moz-border-right-colors:#f4c6cf #f4c6cf #fff #fff;
+
+
+}
+
+.input-field:hover {
+	border:4px solid #f4c6cf;
+	-moz-border-bottom-colors:#f4c6cf #f4c6cf #fff1b8 #fff1b8;
+	-moz-border-top-colors:#f4c6cf #f4c6cf #fff1b8 #fff1b8;
+	-moz-border-left-colors:#f4c6cf #f4c6cf #fff1b8 #fff1b8;
+	-moz-border-right-colors:#f4c6cf #f4c6cf #fff1b8 #fff1b8;
+}
+
+.button-field {
+	-webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.23, rgb(194,194,194)),
+		color-stop(0.69, rgb(240,240,240))
+	);
+
+	-moz-linear-gradient(
+		center bottom,
+		rgb(194,194,194) 23%,
+		rgb(240,240,240) 69%
+	)
+}
