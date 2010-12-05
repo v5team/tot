@@ -1,7 +1,10 @@
+body {
+	background:none !important;
+}
 #header {
 	height:90px;
 	border-bottom:12px solid #8b8b8b;
-	padding:0 10px;
+	padding:15px 10px 0;
 }
 
 #content {
@@ -13,6 +16,15 @@
 	border-top:3px solid #6c6c6c;
 }
 
+strong {
+	font-weight:700;
+}
+
+h1 {
+	float:left;
+
+}
+
 #login-box {
 	float:right;
 	width:240px;
@@ -20,6 +32,15 @@
 	line-height:40px;
 	padding:0 15px;
 	background:#ebf4cf;
+	font-size:14px;
+
+	opacity:0.8;
+
+	border:3px solid #939881;
+	border-radius:4px;
+	-moz-border-radius:4px;
+
+	-moz-box-shadow:#CCC 2px 2px 3px;
 }
 
 #panel {
@@ -39,6 +60,9 @@
 	line-height:36px;
 	margin:10px 0;
 	border-bottom:1px solid #d04d6d;
+	text-shadow:#AAA 2px 2px 2px;
+	box-shadow:#FFF 1px 0 1px;
+	-moz-box-shadow:#FFF 0 1px 0;
 }
 
 #panel-wrap .list {
@@ -74,17 +98,18 @@
 }
 
 .button-field {
-	-webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0.23, rgb(194,194,194)),
-		color-stop(0.69, rgb(240,240,240))
-	);
+	cursor:pointer;
+	padding:4px 6px;
+	color:#7C7C7C;
+	border:2px solid #CCC;
+	border-radius:2px;
+	-moz-border-radius:2px;
 
-	-moz-linear-gradient(
-		center bottom,
-		rgb(194,194,194) 23%,
-		rgb(240,240,240) 69%
-	)
+	background: -moz-linear-gradient(top, #fff, #EFEFEF 49%, #E4E4E4  50%, #E5E5E5 100%);
+
+}
+
+.button-field:hover{
+	border-color:#BBB;
+	color:#666;
 }
