@@ -1,6 +1,8 @@
 body {
 	background:none !important;
+	min-width:900px;
 }
+
 #header {
 	height:90px;
 	border-bottom:12px solid #8b8b8b;
@@ -39,8 +41,13 @@ h1 {
 	border:3px solid #939881;
 	border-radius:4px;
 	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
 
+
+	box-shadow:#CCC 2px 2px 3px;
 	-moz-box-shadow:#CCC 2px 2px 3px;
+	-webkit-box-shadow:#CCC 2px 2px 3px;
+	
 }
 
 #panel {
@@ -52,6 +59,14 @@ h1 {
 	margin:10px;
 	padding:10px;
 	background:#f8d8de;
+
+	border-radius:9px;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+
+	box-shadow:#E4B9C1 3px 3px 3px;
+	-moz-box-shadow:#E4B9C1 3px 3px 3px;
+	-webkit-box-shadow:#E4B9C1 3px 3px 3px;
 }
 
 #panel-wrap h2 {
@@ -60,14 +75,21 @@ h1 {
 	line-height:36px;
 	margin:10px 0;
 	border-bottom:1px solid #d04d6d;
+
 	text-shadow:#AAA 2px 2px 2px;
-	box-shadow:#FFF 1px 0 1px;
+
+	box-shadow:#FFF 0 1px 0;
 	-moz-box-shadow:#FFF 0 1px 0;
+	-webkit-box-shadow:#FFF 0 1px 0;
 }
 
 #panel-wrap .list {
 	padding:10px;
 	background:#fceef1;
+
+	border-radius:9px;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
 }
 
 #panel-wrap .list li {
@@ -81,12 +103,16 @@ h1 {
 .input-field {
 	padding:3px;
 	border:4px solid #f4c6cf;
+
 	-moz-border-bottom-colors:#f4c6cf #f4c6cf #fff #fff;
 	-moz-border-top-colors:#f4c6cf #f4c6cf #fff #fff;
 	-moz-border-left-colors:#f4c6cf #f4c6cf #fff #fff;
 	-moz-border-right-colors:#f4c6cf #f4c6cf #fff #fff;
 
-
+	border-bottom-colors:#f4c6cf #f4c6cf #fff #fff;
+	border-top-colors:#f4c6cf #f4c6cf #fff #fff;
+	border-left-colors:#f4c6cf #f4c6cf #fff #fff;
+	border-right-colors:#f4c6cf #f4c6cf #fff #fff;
 }
 
 .input-field:hover {
@@ -94,18 +120,22 @@ h1 {
 	-moz-border-bottom-colors:#f4c6cf #f4c6cf #fff1b8 #fff1b8;
 	-moz-border-top-colors:#f4c6cf #f4c6cf #fff1b8 #fff1b8;
 	-moz-border-left-colors:#f4c6cf #f4c6cf #fff1b8 #fff1b8;
-	-moz-border-right-colors:#f4c6cf #f4c6cf #fff1b8 #fff1b8;
+	-moz-border-right-colors:#f4c6cf #f4c6cf #fff1b8 #fff1b8;	
 }
 
 .button-field {
 	cursor:pointer;
 	padding:4px 6px;
 	color:#7C7C7C;
+
 	border:2px solid #CCC;
 	border-radius:2px;
 	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
 
+	background:#FAFAFA;
 	background: -moz-linear-gradient(top, #fff, #EFEFEF 49%, #E4E4E4  50%, #E5E5E5 100%);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), color-stop(49%, #EFEFEF), color-stop(50%, #E4E4E4), color-stop(100%, #E5E5E5));
 
 }
 
