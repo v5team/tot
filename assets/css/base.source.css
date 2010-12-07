@@ -47,7 +47,7 @@ h1 {
 	box-shadow:#CCC 2px 2px 3px;
 	-moz-box-shadow:#CCC 2px 2px 3px;
 	-webkit-box-shadow:#CCC 2px 2px 3px;
-	
+
 }
 
 #panel {
@@ -102,25 +102,13 @@ h1 {
 /* 表单控件部分 */
 .input-field {
 	padding:3px;
-	border:4px solid #f4c6cf;
-
-	-moz-border-bottom-colors:#f4c6cf #f4c6cf #fff #fff;
-	-moz-border-top-colors:#f4c6cf #f4c6cf #fff #fff;
-	-moz-border-left-colors:#f4c6cf #f4c6cf #fff #fff;
-	-moz-border-right-colors:#f4c6cf #f4c6cf #fff #fff;
-
-	border-bottom-colors:#f4c6cf #f4c6cf #fff #fff;
-	border-top-colors:#f4c6cf #f4c6cf #fff #fff;
-	border-left-colors:#f4c6cf #f4c6cf #fff #fff;
-	border-right-colors:#f4c6cf #f4c6cf #fff #fff;
+	border:2px solid #f4c6cf;
 }
 
 .input-field:hover {
-	border:4px solid #f4c6cf;
-	-moz-border-bottom-colors:#f4c6cf #f4c6cf #fff1b8 #fff1b8;
-	-moz-border-top-colors:#f4c6cf #f4c6cf #fff1b8 #fff1b8;
-	-moz-border-left-colors:#f4c6cf #f4c6cf #fff1b8 #fff1b8;
-	-moz-border-right-colors:#f4c6cf #f4c6cf #fff1b8 #fff1b8;	
+	box-shadow:inset #fff1b8 0 0 2px;
+	-moz-box-shadow:inset #FF0 0 0 2px;
+	-webkit-box-shadow:inset #FF0 0 0 2px;
 }
 
 .button-field {
