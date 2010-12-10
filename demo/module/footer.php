@@ -1,6 +1,13 @@
+	<!-- content ฝแส๘ -->
 	</div>
-	<div id="footer"></div>
+	<div id="footer">
+		<div id="">
+			TraceTeam |
+			<a href="" target="_blank">ฐ๏ึ๚</a> |
+			<a href="" target="_blank">นุำฺ</a>
+		</div>
+	</div>
 </div>
+
 </body>
-<script type="text/javascript" src="http://a.tbcdn.cn/s/kissy/1.1.5/kissy.js"></script>
 </html>

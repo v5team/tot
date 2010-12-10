@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
-<link rel="stylesheet" type="text/css" href="http://a.tbcdn.cn/tbsp/tbsp.css" />
-<link rel="stylesheet" type="text/css" href="" />
-<title>TraceTeam</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+
+<!-- tbsp and kissy -->
+<link rel="stylesheet" type="text/css" href="../assets/css/base-tbsp.source.css" />
+<!-- <script type="text/javascript" src="http://a.tbcdn.cn/s/kissy/1.1.5/kissy-min.js"></script> -->
+
+
+<link rel="stylesheet" type="text/css" href="../assets/css/base.source.css" />
+
+<title></title>
 </head>
 <body>
+
 <div id="page2">
-
 	<div id="header">
-		<h1>
-			<a href="http://www.rainoxu.com/raino/default.asp">小鹤与独角兽</a>
-			<sub>记录RainoXu的前端生活以及偶尔的胡言乱语</sub>
-		</h1>
-		<div id="navigation">
-			<a href="http://www.rainoxu.com/raino/default.asp">首页<span>Homepage</span></a>
-
-			<a href="http://www.rainoxu.com/raino/default.asp?cid=21">前端开发<span>WEB</span></a>
-			<a href="http://www.rainoxu.com/raino/default.asp?cid=7">乱弹乱侃<span>Trivial Life</span></a>
-			<a href="http://www.rainoxu.com/raino/about.asp">关于我<span>About Me</span></a>
+		<h1><a href=""><img src="../assets/image/logo.jpg" alt="TraceTeam" /></a></h1>
+		<div id="main-nav">
+			<s></s>
+			<div id="login-box">
+				<span>欢迎<strong>龙藏</strong>姐姐！</span>
+				<span>
+					<a href="">退出</a> |
+					<a href="" target="_blank">帮助</a>
+				</span>
+			</div>
 		</div>
 	</div>
-	<div id="content" class="grid-c2-s6f">
+	<div id="content">
+	<!-- content 开始 -->
