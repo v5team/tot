@@ -1,9 +1,64 @@
-table {
-	border:1px solid red;
+.task-info {
+	height:27px;
+	line-height:27px;
+	background:#e6e6e6;
+
+	margin:10px 10px 10px 0;
+	padding-left:10px;
+
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
 }
 
-table th,
-table td {
-	border:1px solid red;
+.task-info li {
+	float:left;
+	margin-right:20px;
+}
+
+.task-info span {
+	color:red;
+	font-weight:700;
+}
+
+.tast-detail-wrap {
+	margin-right:10px;
+	margin-bottom:10px;
+	padding:10px 0;
+
+	border-top:3px solid #B6D552;
+	background:#e6e6e6;
+
+}
+
+.tast-detail-wrap table {
+	width:100%;
+}
+
+.tast-detail-wrap table th,
+.tast-detail-wrap table td {
 	vertical-align:top;
+	padding:5px;
+	font:14px tahoma;
+}
+
+.tast-detail-wrap table th {
+	text-align:right;
+	
+}
+
+#col-title {
+	width:140px;
+}
+
+#col-input-area {
+	width:500px;
+}
+
+.button-area {
+	text-align:center;
+}
+
+.button-area .button-field {
+	margin-right:60px;
 }

@@ -36,102 +36,121 @@
 			<div class="col-main">
 				<div class="main-wrap">
 
-					<ul>
+					<ul class="task-info">
 						<li>来源：<a href="" target="_blank">藏姐</a></li>
 						<li>期望完成： <span>2010-11-22</span></li>
 						<li>预期耗时： <span>24H</span></li>
 						<li>当前进度： <span>50%</span></li>
 					</ul>
+					
+					<div class="tast-detail-wrap">
+						<table id="task">
+							<colgroup>
+								<col id="col-title" />
+								<col id="col-input-area"/>
+								<col id="col-button-area"/>
+							</colgroup>
 
-					<table id="">
-						<colgroup>
-							<col id="col-title" />
-							<col id="col-input-area"/>
-							<col id="col-button-area"/>
-						</colgroup>
+							<tr>
+								<th>当前任务名：</th>
+								<td><input type="text" class="input-field" /></td>
+								<td><input type="checkbox" /> 里程碑</td>
+							</tr>
 
-						<tr>
-							<th>当前任务名：</th>
-							<td><input type="text" class="input-field" /></td>
-							<td><input type="checkbox" /> 里程碑</td>
-						</tr>
+							<tr>
+								<th>预算工时：</th>
+								<td><input type="text" class="input-field" /> H(时)</td>
+								<td></td>
+							</tr>
 
-						<tr>
-							<th>预算工时：</th>
-							<td><input type="text" class="input-field" /></td>
-							<td></td>
-						</tr>
+							<tr>
+								<th>进度：</th>
+								<td><input type="text" class="input-field" /> %</td>
+								<td></td>
+							</tr>
 
-						<tr>
-							<th>进度：</th>
-							<td><input type="text" class="input-field" /></td>
-							<td></td>
-						</tr>
+							<tr>
+								<th rowspan="3">实际工时：</th>
+								<td>
+									<select id="">
+										<option value="" selected="selected">请选择类型</option>
+										<option value=""></option>
+									</select>
 
-						<tr>
-							<th>实际工时：</th>
-							<td>
-								<select id="">
-									<option value="" selected="selected"></option>
-									<option value=""></option>
-								</select>
+									<input type="text" class="input-field" /> H(小时)
+									<input type="text" class="input-field" />
+								</td>
+								<td>
+									<input type="button" class="button-field" value="返回列表" />
+								</td>
+							</tr>
 
-								<input type="text" class="input-field" /> H(小时)
-							</td>
-							<td>
-								<input type="button" class="button-field" value="返回列表" />
-							</td>
-						</tr>
+							<tr>
+								<td><textarea class="input-field" style="width:500px; height:200px;"></textarea></td>
+								<td>
+									<input type="button" class="button-field" value="返回列表" />
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">共计：<input type="text" class="input-field" /> H(小时)</td>
 
-						<tr>
-							<th>共计：</th>
-							<td><input type="text" class="input-field" /> H(小时)</td>
-							<td></td>
-						</tr>
+							</tr>
 
-						<tr>
-							<th>时间计划：</th>
-							<td>
-								<input type="text" class="input-field" /> 至
-								<input type="text" class="input-field" />
-							</td>
-							<td></td>
-						</tr>
+							<tr>
+								<th>时间计划：</th>
+								<td>
+									<input type="text" class="input-field" /> 至
+									<input type="text" class="input-field" />
+								</td>
+								<td></td>
+							</tr>
 
-						<tr>
-							<th>描述：</th>
-							<td><textarea class="input-field" style="width:500px; height:200px;"></textarea></td>
-							<td></td>
-						</tr>
+							<tr>
+								<th>描述：</th>
+								<td><textarea class="input-field" style="width:500px; height:200px;"></textarea></td>
+								<td></td>
+							</tr>
 
-						<tr>
-							<th>问题风险：</th>
-							<td>
-								<select id="">
-									<option value="" selected="selected"></option>
-									<option value=""></option>
-								</select>
+							<tr>
+								<th rowspan="2">问题风险：</th>
+								<td>
+									<select id="">
+										<option value="" selected="selected">请选择类型</option>
+										<option value=""></option>
+									</select>
 
-								<input type="text" class="input-field" />
+									<input type="text" class="input-field" />
+								</td>
+								<td>
+									<input type="button" class="button-field" value="返回列表" />
+								</td>
+							</tr>
 
-								<textarea class="input-field" style="width:500px; height:200px;"></textarea>
-							</td>
-							<td></td>
-						</tr>
+							<tr>
+								<td>
+									<textarea class="input-field" style="width:500px; height:200px;"></textarea>
+								</td>
+								<td>
+									<input type="button" class="button-field" value="返回列表" />
+								</td>
+							</tr>
 
-						<tr>
-							<th>备注：</th>
-							<td><textarea class="input-field" style="width:500px; height:200px;"></textarea></td>
-							<td></td>
-						</tr>
+							<tr>
+								<th>备注：</th>
+								<td><textarea class="input-field" style="width:500px; height:200px;"></textarea></td>
+								<td></td>
+							</tr>
 
-						<tr>
-							<td colspan="3">
-								<input type="button" class="button-field" value="返回列表" />
-								<input type="button" class="button-field" value="返回列表" />
-							</td>
-						</tr>
-					</table>
+							<tr>
+								<td></td>
+								<td class="button-area">
+									<input type="button" class="button-field" value="返回列表" />
+									<input type="button" class="button-field" value="返回列表" />
+								</td>
+								<td></td>
+							</tr>
+						</table>
+					</div>
 				</div>
 
 
